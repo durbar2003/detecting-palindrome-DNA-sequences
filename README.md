@@ -1,2 +1,2 @@
-# detecting-palindrome-DNA-sequences
-MATLAB Code to detect Palindromic DNA sequences in a genome and GC Skews
+# detecting-palindrome-DNA-sequences-and-skews
+MATLAB Code to detect Palindromic DNA sequences and GC percentage in a genome across multiple genera
