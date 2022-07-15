@@ -1,0 +1,37 @@
+genome_sequence=getgenbank('NC_001134', 'PartialSeq', [28933, 29152])
+
+genome_sequence = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+                LocusName: 'NC_001134'
+      LocusSequenceLength: '220'
+     LocusNumberofStrands: ''
+            LocusTopology: 'linear'
+        LocusMoleculeType: 'DNA'
+     LocusGenBankDivision: 'CON'
+    LocusModificationDate: '30-JUN-2022'
+               Definition: 'Saccharomyces cerevisiae S288C chromosome II, complete sequence.'
+                Accession: 'NC_001134 REGION: 28933..29152'
+                  Version: 'NC_001134.8'
+                       GI: ''
+                  Project: []
+                   DBLink: 'BioProject: PRJNA128 Assembly: GCF_000146045.2'
+                 Keywords: 'RefSeq.'
+                  Segment: []
+                   Source: 'Saccharomyces cerevisiae S288C'
+           SourceOrganism: [4×56 char]
+                Reference: {1×7 cell}
+                  Comment: [10×67 char]
+                 Features: [9×65 char]
+                      CDS: []
+                 Sequence: 'gtatttctattgtgaaaccgctttgttctggagggcgagaaaaagttacggtcactctatcttttttataatttggtctaacaaacttgatatcagaaccacgtagaagaaaaagagactaatagtaaaaatatcaagaaagttgaccaatttttgttatatatgtccgtaaaagttatgacttggcactggtcttggtttactcatcaatcagctagga'
+                SearchURL: 'https://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?db=nuccore&id=NC_001134'
+              RetrieveURL: 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=330443482&rettype=gb&retmode=text&seq_start=28933&seq_stop=29152'
+
+index=str2double(genome_sequence.LocusSequenceLength)
+
+index =
+
+   220
+
